@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trust Vessel Instrument</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .vessel { height: 140px; border-radius: 28px; overflow: hidden; position: relative; background: #f8fafc; border: 2px solid #e2e8f0; box-shadow: inset 0 2px 10px rgba(0,0,0,0.06); }
+    .segment { position: absolute; top: 0; bottom: 0; transition: all 0.2s ease; }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen p-4 md:p-8">
+  <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
+    <div class="px-6 py-5 border-b border-slate-100 flex items-center justify-between">
+      <div>
+        <h1 class="text-xl font-semibold text-slate-900">Trust Vessel</h1>
+        <p class="text-xs text-slate-500 mt-0.5">Instrument That · measuring trust interests</p>
+      </div>
+      <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-100 text-slate-600">Equal default</span>
+    </div>
+    <div class="p-6 space-y-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-medium text-slate-500 mb-1.5">Config</label>
+          <select id="config" class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg bg-white focus:ring-2 focus:ring-slate-900 focus:border-transparent outline-none">
+            <option value="equal">Equal Interests</option>
+            <option value="grantor-heavy">Grantor Heavy</option>
+            <option value="custom">Custom Interests</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-slate-500 mb-1.5">Algorithm</label>
+          <select id="algorithm" class="w-full px-3 py-2 text-sm border border-slate-200 rounded-lg bg-white focus:ring-2 focus:ring-slate-900 focus:border-transparent outline-none">
+            <option value="equal">Equal Share (default)</option>
+            <option value="proportional">Weighted Proportional</option>
+            <option value="residual">Residual Allocation</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <label class="text-xs font-medium text-slate-500">Parties</label>
+          <button id="addParty" class="text-xs font-medium text-slate-700 hover:text-slate-900">+ Add party</button>
+        </div>
+        <div id="parties" class="space-y-3"></div>
+      </div>
+      <div>
+        <div class="vessel mb-3" id="vessel"></div>
+        <div id="labels" class="flex justify-between text-xs font-medium text-slate-600"></div>
+      </div>
+      <div class="flex gap-3">
+        <button id="reset" class="flex-1 px-4 py-2.5 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition">Reset to equal</button>
+        <button id="copy" class="px-4 py-2.5 border border-slate-300 text-sm font-medium text-slate-700 rounded-lg hover:bg-slate-50 transition">Copy numbers</button>
+      </div>
+      <p class="text-xs text-slate-500 leading-relaxed border-t border-slate-100 pt-4">Equal interests are the starting point when the instrument is silent. Florida trust law treats the grantor, settlor, and beneficiaries as holding measurable interests. The vessel starts at equal and moves only when the parties set a different measure. Same wire as Share Vessel.</p>
+    </div>
+  </div>
+  <script>
+    const colors = ['linear-gradient(180deg, #3b82f6, #1d4ed8)','linear-gradient(180deg, #f59e0b, #d97706)','linear-gradient(180deg, #10b981, #059669)','linear-gradient(180deg, #8b5cf6, #7c3aed)','linear-gradient(180deg, #ef4444, #dc2626)','linear-gradient(180deg, #06b6d4, #0891b2)'];
+    let parties = [{ id: 1, name: 'Grantor', weight: 1 },{ id: 2, name: 'Settlor', weight: 1 },{ id: 3, name: 'Beneficiary', weight: 1 }];
+    let nextId = 4;
+    const partiesEl = document.getElementById('parties');
+    const vesselEl = document.getElementById('vessel');
+    const labelsEl = document.getElementById('labels');
+    const configEl = document.getElementById('config');
+    const algoEl = document.getElementById('algorithm');
+    function renderParties() {
+      partiesEl.innerHTML = parties.map(p => `<div class="flex gap-2 items-center" data-id="${p.id}"><input type="text" value="${p.name}" data-field="name" data-id="${p.id}" class="flex-1 px-3 py-2 text-sm border border-slate-200 rounded-lg outline-none focus:ring-2 focus:ring-slate-900"><input type="number" value="${p.weight}" min="0" step="0.000001" data-field="weight" data-id="${p.id}" class="w-28 px-3 py-2 text-sm border border-slate-200 rounded-lg outline-none focus:ring-2 focus:ring-slate-900" placeholder="weight">${parties.length > 2 ? `<button data-remove="${p.id}" class="text-slate-400 hover:text-red-500 text-sm">✕</button>` : ''}</div>`).join('');
+      partiesEl.querySelectorAll('input').forEach(inp => { inp.addEventListener('input', e => { const id = parseInt(e.target.dataset.id); const field = e.target.dataset.field; const party = parties.find(p => p.id === id); if (field === 'name') party.name = e.target.value; if (field === 'weight') party.weight = parseFloat(e.target.value) || 0; update(); }); });
+      partiesEl.querySelectorAll('[data-remove]').forEach(btn => { btn.addEventListener('click', () => { parties = parties.filter(p => p.id !== parseInt(btn.dataset.remove)); renderParties(); update(); }); });
+    }
+    function computeShares() {
+      const algo = algoEl.value; const n = parties.length; if (n === 0) return [];
+      if (algo === 'equal' || configEl.value === 'equal') { const eq = 100 / n; return parties.map(p => ({ ...p, pct: eq })); }
+      const weights = parties.map(p => Math.max(0, p.weight)); const total = weights.reduce((a, b) => a + b, 0);
+      if (algo === 'proportional' || total === 0) { return parties.map((p, i) => ({ ...p, pct: total === 0 ? 100 / n : (weights[i] / total) * 100 })); }
+      if (algo === 'residual') {
+        const base = 100 / n; const excess = weights.map(w => Math.max(0, w - 1)); const excessTotal = excess.reduce((a, b) => a + b, 0);
+        if (excessTotal === 0) return parties.map(p => ({ ...p, pct: base }));
+        return parties.map((p, i) => ({ ...p, pct: base + (excess[i] / excessTotal) * 0 }));
+      }
+      return parties.map(p => ({ ...p, pct: 100 / n }));
+    }
+    function update() {
+      const shares = computeShares(); let left = 0;
+      vesselEl.innerHTML = shares.map((s, i) => { const w = s.pct; const el = `<div class="segment" style="left:${left}%;width:${w}%;background:${colors[i % colors.length]}"></div>`; left += w; return el; }).join('');
+      labelsEl.innerHTML = shares.map((s, i) => `<span style="color:${i % 2 === 0 ? '#1d4ed8' : '#d97706'}">${s.pct.toFixed(6)}%</span>`).join('');
+    }
+    document.getElementById('addParty').addEventListener('click', () => { if (parties.length >= 6) return; parties.push({ id: nextId++, name: `Party ${nextId - 1}`, weight: 1 }); renderParties(); update(); });
+    document.getElementById('reset').addEventListener('click', () => { parties = [{ id: 1, name: 'Grantor', weight: 1 },{ id: 2, name: 'Settlor', weight: 1 },{ id: 3, name: 'Beneficiary', weight: 1 }]; nextId = 4; configEl.value = 'equal'; algoEl.value = 'equal'; renderParties(); update(); });
+    document.getElementById('copy').addEventListener('click', () => { const shares = computeShares(); const text = shares.map(s => `${s.name}: ${s.pct.toFixed(6)}%`).join('\n'); navigator.clipboard.writeText(text).then(() => { const btn = document.getElementById('copy'); const orig = btn.textContent; btn.textContent = 'Copied'; setTimeout(() => btn.textContent = orig, 1500); }); });
+    configEl.addEventListener('change', update); algoEl.addEventListener('change', update);
+    renderParties(); update();
+  </script>
+</body>
+</html>
