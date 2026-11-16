@@ -45,3 +45,16 @@ No registry, service, port assignment, authorization or network route is changed
 by that file. The upstream remains null until Port Authority assigns the actual
 product owner. Receiving must use the existing shared chrome/cassette kit, not a
 new service or copied shell. This proposal is distinct from a live Door receipt.
+
+### Optional retained speech timestamps
+
+A selected MR request may contain the exact retained `word_timing` owner record.
+The trusted admission callback receives its whole-record SHA-256 in addition to
+the complete frozen request digest. MR remains the sole validator and scientific
+measurement owner: Original tokens, audio/transcript digests, explicit timestamps,
+record hash, limits and refused estimates are checked there. InstrumentTHAT
+checks the returned timing identity, engine, count and all three source hashes.
+Caller-declared engine labels do not attest a model run. Studio must bind this
+record to its actual retained speech receipt; arbitrary request JSON grants no
+permission or independent timing evidence. Historical text-only requests retain
+their shape and unknown timing state.
