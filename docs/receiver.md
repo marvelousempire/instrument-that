@@ -35,3 +35,13 @@ The seven real modules are form_heat, relative_form, session_tape, peak_from_pea
 The separate `instrument-that.player-reading/v1` request contains request_id, explicit selected IDs, source, and raw SHA256 of JSON.stringify(source). Source has exactly player_id, sessions, team_bench, league_bench and vault. Each session/benchmark array has15–1000 explicit rows; finite numeric inputs and identifiers are bounded. No benchmark fallback is silently supplied by this adapter. Fields and source hash validate before trusted admission. Output retains the original transform data, not a price/quality recommendation. The original desk receipt is data provenance, never permission, identity or independent commissioning.
 
 The eight remaining catalog-only identifiers are quote_grid, chart_bars, macd_form, fib_span, session_flow, rank_cloud, sage_benches and holder_tape. Their original PLAYER_MARKET_DESK.md distinguishes these catalog devices from the seven actual Python slices. They require real implementations in their own owner before callable admission.
+
+## Prepared own-Door receiving proposal
+
+`contracts/door-proposal.v1.json` records the actual current ACT owner registry
+path, exact reviewed core revision and existing Family route owner. It proposes
+an explicitly held InstrumentTHAT Web consumer and authenticated own local Door.
+No registry, service, port assignment, authorization or network route is changed
+by that file. The upstream remains null until Port Authority assigns the actual
+product owner. Receiving must use the existing shared chrome/cassette kit, not a
+new service or copied shell. This proposal is distinct from a live Door receipt.
