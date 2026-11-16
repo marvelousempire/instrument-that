@@ -12,7 +12,7 @@ A retained unavailable result stays unavailable. Unknown values are never conver
 
 ## Local owner adapter
 
-`localMediaResolver` takes the root from trusted installation configuration, never request JSON. It requires accepted Media Resolver cfe6bb82d1d04844754b7bdca31f6f6629c570f0 with no changed/untracked files before and after execution. It invokes only the fixed CLI with fixed argv, bounded output and timeout, no shell. Python/FFmpeg dependencies remain those of the measurement owner. A runner timeout can leave a restricted MR temporary artifact; preserve the uncertain operation and inspect its exact request-bound artifact before intentional recovery. Never automatically replay an admitted invocation.
+`localMediaResolver` takes the root from trusted installation configuration, never request JSON. It requires accepted Media Resolver 1e378fa9d7bd42ac94f219951adc3d1af86f33b2 with no changed/untracked files before and after execution. It invokes only the fixed CLI with fixed argv, bounded output and timeout, no shell. Python/FFmpeg dependencies remain those of the measurement owner. A runner timeout can leave a restricted MR temporary artifact; preserve the uncertain operation and inspect its exact request-bound artifact before intentional recovery. Never automatically replay an admitted invocation.
 
 The host must retain operation state and the admission receipt before calling this function, and separately verify its owner's result. An invocation callback is not an identity token or an independently commissioned service.
 
