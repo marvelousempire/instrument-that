@@ -12,7 +12,7 @@ A retained unavailable result stays unavailable. Unknown values are never conver
 
 ## Local owner adapter
 
-`localMediaResolver` takes the root from trusted installation configuration, never request JSON. It requires accepted Media Resolver cfe6bb82d1d04844754b7bdca31f6f6629c570f0 with no changed/untracked files before and after execution. It invokes only the fixed CLI with fixed argv, bounded output and timeout, no shell. Python/FFmpeg dependencies remain those of the measurement owner. A runner timeout can leave a restricted MR temporary artifact; preserve the uncertain operation and inspect its exact request-bound artifact before intentional recovery. Never automatically replay an admitted invocation.
+`localMediaResolver` takes the root from trusted installation configuration, never request JSON. It requires accepted Media Resolver 1e378fa9d7bd42ac94f219951adc3d1af86f33b2 with no changed/untracked files before and after execution. It invokes only the fixed CLI with fixed argv, bounded output and timeout, no shell. Python/FFmpeg dependencies remain those of the measurement owner. A runner timeout can leave a restricted MR temporary artifact; preserve the uncertain operation and inspect its exact request-bound artifact before intentional recovery. Never automatically replay an admitted invocation.
 
 The host must retain operation state and the admission receipt before calling this function, and separately verify its owner's result. An invocation callback is not an identity token or an independently commissioned service.
 
@@ -45,3 +45,16 @@ No registry, service, port assignment, authorization or network route is changed
 by that file. The upstream remains null until Port Authority assigns the actual
 product owner. Receiving must use the existing shared chrome/cassette kit, not a
 new service or copied shell. This proposal is distinct from a live Door receipt.
+
+### Optional retained speech timestamps
+
+A selected MR request may contain the exact retained `word_timing` owner record.
+The trusted admission callback receives its whole-record SHA-256 in addition to
+the complete frozen request digest. MR remains the sole validator and scientific
+measurement owner: Original tokens, audio/transcript digests, explicit timestamps,
+record hash, limits and refused estimates are checked there. InstrumentTHAT
+checks the returned timing identity, engine, count and all three source hashes.
+Caller-declared engine labels do not attest a model run. Studio must bind this
+record to its actual retained speech receipt; arbitrary request JSON grants no
+permission or independent timing evidence. Historical text-only requests retain
+their shape and unknown timing state.
