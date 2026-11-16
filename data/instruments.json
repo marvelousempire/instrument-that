@@ -1,0 +1,746 @@
+{
+  "schema": "instrument-that.catalog/v1",
+  "source": {
+    "repository": "averygoodman/media-resolver",
+    "census_revision": "9f766b14062c9226b0f080ed0d5aa606f52226ff",
+    "census_path": "docs/instruments/instrument-census-2026-11-01.json"
+  },
+  "instruments": [
+    {
+      "id": "honesty-meter",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/meters.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "claim-ledger",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/aot-detectors.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "fact-opinion-balance",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "tally counts"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "drop-histogram",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "tally"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "proof-curve",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "concise-vector",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/concise-perspective.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "parts-of-speech-spectrum",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "perspectiveMatrix"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "mode-of-expression",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "SNF receipts"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "mood-of-expression",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "SNF affect"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "interest-meter",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/meters.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "usability-meter",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/meters.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "capitalization-gambit",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/meters.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "attention-decay",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "preference-equalizer",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "operator profile"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "voice-tone",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "speech-pattern",
+      "groups": [
+        "rack"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "pause-structure",
+      "groups": [
+        "rack",
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs",
+        "lib/instrument-catalogue.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "hedging-certainty",
+      "groups": [
+        "rack",
+        "teaching_catalogue"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs",
+        "lib/instrument-catalogue.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "lexical-density",
+      "groups": [
+        "rack",
+        "teaching_catalogue"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "data/media-resolver.instruments.json",
+        "lib/instruments/evidence-lenses.mjs",
+        "lib/instrument-catalogue.mjs"
+      ],
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing selected reader; missing evidence remains unknown."
+    },
+    {
+      "id": "dynamic-range-damper",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "tonality-gauge",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "brightness-gauge",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "clipping-forensics",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "spectral-signature",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "emphasis-map",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "intonation-contour",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/acoustic_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "pace-meter",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "word timings"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "language",
+      "groups": [
+        "teaching_catalogue",
+        "python_projections"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/instrument_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "repetition-redundancy",
+      "groups": [
+        "teaching_catalogue"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "attention",
+      "groups": [
+        "teaching_catalogue",
+        "python_projections"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/instrument_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "contradiction-detector",
+      "groups": [
+        "teaching_catalogue"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "evidence-integrity",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset",
+        "python_projections"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/instrument_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "said-vs-shown",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "lib/instrument-readings.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "swarm-coverage",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "lib/instrument-readings.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "capitalization",
+      "groups": [
+        "teaching_catalogue",
+        "registry_catalogue_subset",
+        "meters",
+        "python_projections"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/instrument_metrics.py",
+        "lib/meters.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "usability",
+      "groups": [
+        "teaching_catalogue",
+        "meters",
+        "python_projections"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "lib/meters.mjs",
+        "analysis/instrument_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "delivery",
+      "groups": [
+        "teaching_catalogue",
+        "python_projections"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/instrument-catalogue.mjs",
+        "analysis/instrument_metrics.py"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "interest",
+      "groups": [
+        "meters"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/meters.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "honesty",
+      "groups": [
+        "meters"
+      ],
+      "measurement_owner": "media-resolver",
+      "source_locators": [
+        "lib/meters.mjs"
+      ],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "quote_grid",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "chart_bars",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "form_heat",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "form_stack",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "macd_form",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "fib_span",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "session_tape",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "session_flow",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "rank_cloud",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "sage_benches",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "holder_tape",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "desk_receipt",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "relative_form",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "peak_from_peak",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    },
+    {
+      "id": "vault_fill",
+      "groups": [
+        "player_market_instruments"
+      ],
+      "measurement_owner": "readyplay-tech-stack",
+      "source_locators": [],
+      "port": null,
+      "availability": "unbound",
+      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+    }
+  ]
+}
