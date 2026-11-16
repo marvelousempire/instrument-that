@@ -18,7 +18,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "claim-ledger",
@@ -32,7 +32,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "fact-opinion-balance",
@@ -46,7 +46,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "drop-histogram",
@@ -60,7 +60,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "proof-curve",
@@ -74,7 +74,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "concise-vector",
@@ -88,7 +88,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "parts-of-speech-spectrum",
@@ -102,7 +102,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "mode-of-expression",
@@ -116,7 +116,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "mood-of-expression",
@@ -130,7 +130,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "interest-meter",
@@ -144,7 +144,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "usability-meter",
@@ -158,7 +158,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "capitalization-gambit",
@@ -172,7 +172,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "attention-decay",
@@ -186,7 +186,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "preference-equalizer",
@@ -200,7 +200,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "voice-tone",
@@ -214,7 +214,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "speech-pattern",
@@ -228,7 +228,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "pause-structure",
@@ -245,7 +245,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "hedging-certainty",
@@ -261,7 +261,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "lexical-density",
@@ -277,7 +277,7 @@
       ],
       "port": "media-resolver.selected-instrument-reading/v1",
       "availability": "callable-with-owner-admission",
-      "reason": "Existing selected reader; missing evidence remains unknown."
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "dynamic-range-damper",
@@ -290,9 +290,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "tonality-gauge",
@@ -305,9 +305,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "brightness-gauge",
@@ -320,9 +320,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "clipping-forensics",
@@ -335,9 +335,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "spectral-signature",
@@ -350,9 +350,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "emphasis-map",
@@ -365,9 +365,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "intonation-contour",
@@ -380,9 +380,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/acoustic_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "pace-meter",
@@ -395,9 +395,9 @@
         "lib/instrument-catalogue.mjs",
         "word timings"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "language",
@@ -410,9 +410,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/instrument_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "repetition-redundancy",
@@ -423,9 +423,9 @@
       "source_locators": [
         "lib/instrument-catalogue.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "attention",
@@ -438,9 +438,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/instrument_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "contradiction-detector",
@@ -451,9 +451,9 @@
       "source_locators": [
         "lib/instrument-catalogue.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "evidence-integrity",
@@ -467,9 +467,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/instrument_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "said-vs-shown",
@@ -482,9 +482,9 @@
         "lib/instrument-catalogue.mjs",
         "lib/instrument-readings.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "swarm-coverage",
@@ -497,9 +497,9 @@
         "lib/instrument-catalogue.mjs",
         "lib/instrument-readings.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "capitalization",
@@ -515,9 +515,9 @@
         "analysis/instrument_metrics.py",
         "lib/meters.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "usability",
@@ -532,9 +532,9 @@
         "lib/meters.mjs",
         "analysis/instrument_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "delivery",
@@ -547,9 +547,9 @@
         "lib/instrument-catalogue.mjs",
         "analysis/instrument_metrics.py"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "interest",
@@ -560,9 +560,9 @@
       "source_locators": [
         "lib/meters.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "honesty",
@@ -573,174 +573,188 @@
       "source_locators": [
         "lib/meters.mjs"
       ],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "port": "media-resolver.selected-instrument-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Existing rack or original owner projection; unknown inputs and promotion gate retained."
     },
     {
       "id": "quote_grid",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "chart_bars",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "form_heat",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/form_heat.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     },
     {
       "id": "form_stack",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/form_stack.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     },
     {
       "id": "macd_form",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "fib_span",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "session_tape",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/session_tape.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     },
     {
       "id": "session_flow",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "rank_cloud",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "sage_benches",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "holder_tape",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
+      "measurement_owner": "red-e-play-app",
       "source_locators": [],
       "port": null,
       "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "reason": "Catalog-only device: listed in architecture/venture-mode/docs/PLAYER_MARKET_DESK.md and PLAYER_MARKET_DEVICES.md; no corresponding callable Python muscle in accepted owner tree."
     },
     {
       "id": "desk_receipt",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/desk_receipt.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     },
     {
       "id": "relative_form",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/relative_form.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     },
     {
       "id": "peak_from_peak",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/peak_from_peak.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     },
     {
       "id": "vault_fill",
       "groups": [
         "player_market_instruments"
       ],
-      "measurement_owner": "readyplay-tech-stack",
-      "source_locators": [],
-      "port": null,
-      "availability": "unbound",
-      "reason": "This identifier has no selected-reader contract yet; preserve its actual source owner before adding an adapter."
+      "measurement_owner": "red-e-play-app",
+      "source_locators": [
+        "architecture/venture-mode/python/player_market/vault_fill.py"
+      ],
+      "port": "instrument-that.player-reading/v1",
+      "availability": "callable-with-owner-admission",
+      "reason": "Actual Player Market transform; requires explicit session, benchmark and vault input, not media/transcript."
     }
   ]
 }

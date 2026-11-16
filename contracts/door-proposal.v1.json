@@ -1,0 +1,41 @@
+{
+  "schema": "instrument-that.owner-receiving-proposal/v1",
+  "status": "prepared-only-not-applied",
+  "product": "InstrumentTHAT",
+  "requested_origin": "http://instrumentthat.localhost",
+  "act_owner": {
+    "repository": "averygoodman/act-v5",
+    "reviewed_revision": "d84c98420dcedd712da84c080d49b63fbff89b75",
+    "registry_path": "runtime/distribution/consumer-registry.v1.json",
+    "proposed_consumer": {
+      "id": "instrument-that-web",
+      "product": "InstrumentTHAT",
+      "surface": "Web selected instrument console",
+      "status": "held",
+      "origins": ["http://instrumentthat.localhost"],
+      "required_contract": "act-v5.cassette-anatomy/v1",
+      "adoption_note": "Proposed receiving only; no registered Door, installation or independent commissioning is asserted. Existing admission and measurement owners retain authority."
+    },
+    "receiver": "/core/v1/receiver-kit.mjs"
+  },
+  "family_owner": {
+    "source_path": "src/cassette-framework/family-web-doors.js",
+    "route_registry": "data/local-routes-overrides.json",
+    "door_slug": "instrumentthat",
+    "requires_auth": true,
+    "upstream": null,
+    "source_effect": "none",
+    "next_action": "Existing Port Authority assigns the real product-owned upstream; existing Family owner reviews and registers it without replacing other Doors."
+  },
+  "receiving_requirements": [
+    "Mount ACT V5 createReceiverChrome/mountReceiver from one exact accepted cohort; no independent shell or server.",
+    "Use existing CCKTHAT card/field shape, padding and spacing, Empty Subtle Quiet and center-focused HUD.",
+    "Tap instruments into a retained selection, admit the exact source-bound operation through the existing host, then show actual original readings.",
+    "Keep media/transcript inputs separate from Player Market session inputs.",
+    "Retain mounted work, selection, scroll and focus through Help, Screen, Settings and Back.",
+    "Missing owner input, authorization or callable muscle stays unavailable; no synthetic production readings.",
+    "Before activation, prove keyboard/narrow geometry, actual admitted source, saved/reopened readings, owner identity and independent result readback at its registered Door."
+  ],
+  "installation_receipt": null,
+  "runtime_receipt": null
+}
