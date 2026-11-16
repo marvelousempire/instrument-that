@@ -1,0 +1,43 @@
+{
+  "schema": "instrument-that.player-owner-binding/v1",
+  "repository": "averygoodman/red-e-play-app",
+  "revision": "8a0d704b0fb41a696e6d661ba2c22d223395fb62",
+  "files": {
+    "architecture/venture-mode/python/player_market_desk.py": {
+      "sha256": "2e074a49df4fd03af906c09bde154bd185ee7668df7d3d7b597e750878c4c92c",
+      "git_object": "5359c6c209885852c10357ba6361bfadf77969b3"
+    },
+    "architecture/venture-mode/python/player_market/__init__.py": {
+      "sha256": "7677d1109b0b910c97c0c8799318c7b22a50e702b0bb2214875e460a2a633513",
+      "git_object": "2714e8f4bdbe411606cbc316a5218f9a49f289e9"
+    },
+    "architecture/venture-mode/python/player_market/desk_receipt.py": {
+      "sha256": "8bc809a1ed173884cd68b8694ffe813bb78484c9e61bca7e67b655de6e663dd1",
+      "git_object": "6c0bb6b7806dfad0847867723afe505b8deffcc5"
+    },
+    "architecture/venture-mode/python/player_market/form_heat.py": {
+      "sha256": "896fac53db5e388503d6a242bd1711cb05632fa6eefd7ae4ce1937fa39b06f62",
+      "git_object": "55e9ff3cb7462e25ca16e4d69d499a49de0b6d5d"
+    },
+    "architecture/venture-mode/python/player_market/form_stack.py": {
+      "sha256": "a7339e56a08c97d12c49020821e23f56ecb91d1c0397703923e3b3e02670570d",
+      "git_object": "551de67441d815a32b46e364b394223f57205357"
+    },
+    "architecture/venture-mode/python/player_market/peak_from_peak.py": {
+      "sha256": "62f3182ba113d4353b82a296d5aa431c806149974f6dd06bb6cf69033434ecba",
+      "git_object": "18a762f77af4439f235f6d1fb991d10e3bdcfd45"
+    },
+    "architecture/venture-mode/python/player_market/relative_form.py": {
+      "sha256": "32ad4a6af7c1caca9b670ddf8286a0f8e18ac7463ddc9532186f66a082143a32",
+      "git_object": "fd3c51939e78ee1d7812bdaa22edb6f4cac7a6b7"
+    },
+    "architecture/venture-mode/python/player_market/session_tape.py": {
+      "sha256": "70129bbc9781c268fd50a21e31d79c16197a428c24677fe160c299d064c54179",
+      "git_object": "412dd572b40aad8187419d8d681634adb8c0db3f"
+    },
+    "architecture/venture-mode/python/player_market/vault_fill.py": {
+      "sha256": "2596cec1f0c0b267c236923dfc4f05b6b15058e0e1d901e687628788b8b3c923",
+      "git_object": "00d8c8e76e02ddf8053fb42421526902580ae658"
+    }
+  }
+}
