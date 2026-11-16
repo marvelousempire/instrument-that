@@ -1,0 +1,27 @@
+name: Verify
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  push:
+    branches: [main]
+jobs:
+  receiver:
+    runs-on: nephew-spark
+    timeout-minutes: 5
+    steps:
+      - name: Checkout exact source
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd "$GITHUB_WORKSPACE"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git init
+          git remote add origin "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
+          git -c "http.extraheader=Authorization: token ${GITHUB_TOKEN}" fetch --no-tags origin "${GITHUB_SHA}"
+          git checkout --detach FETCH_HEAD
+      - name: Verify registry and receiver
+        run: |
+          export PATH="/home/abrownsanta/.nvm/versions/node/v22.22.3/bin:/usr/local/bin:/usr/bin:${PATH}"
+          npm test
+          npm run check
